@@ -8,7 +8,7 @@
 @mixin styleButton($color,$bg-color,$border,$fs,$fw,$pd-y,$pd-x){
     color:$color;
     background-color: $bg-color;
-    border: $border;
+    border:1px solid $border;
     font-size: $fs;
     font-weight: $fw;
     padding: $pd-y $pd-x;

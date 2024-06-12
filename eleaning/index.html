@@ -22,7 +22,7 @@
 <body>
     <!-- Header -->
     <header>
-        <nav class="myNavBar navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="myNavBar navbar navbar-expand-lg navbar-light">
             <div class="col-7">
                 <div class="myNavBar__left">
                     <a class="navbar-brand" href="#">
@@ -35,9 +35,11 @@
                     <form class="myNavBar__form-search">
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search for courses">
-                            <span class="input-group-text" id="basic-addon2">
-                                <i class="fa fa-search"></i>
-                            </span>
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -47,19 +49,19 @@
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Udemy for Business</a>
-                            <div class="overlay">
+                            <!-- <div class="overlay">
                                 <p>Get your team access to over 26,000 top Udemy courses, anytime, anywhere.</p>
                                 <a href="#">Try Udemy for Business</a>
-                            </div>
+                            </div> -->
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Become an Instructor</a>
-                            <div class="overlay">
+                            <!-- <div class="overlay">
                                 <p>Turn what you know into an opportunity and reach millions around the world.</p>
                                 <a href="#">Lear more</a>
-                            </div>
+                            </div> -->
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item myNavBar__cart">
                             <a class="nav-link" href="#">
                                 <i class="fa fa-shopping-cart"></i>
                             </a>

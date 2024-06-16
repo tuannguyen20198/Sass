@@ -11,10 +11,13 @@
 
 //Layout
 @import "./Layouts/header";
+@import "./Layouts/banner";
+@import "./Layouts/categories";
 @import "./Layouts/footer";
 @import "./Layouts/intro";
 @import "./Layouts/courses";
 @import "./Layouts/viewing";
+
 //componets
 @import "./Components/button";
 @import "./Components/cover";

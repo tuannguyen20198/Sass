@@ -212,6 +212,10 @@ body {
   width: 90%;
   margin: auto;
 }
+.courses .courses__content .row {
+  margin-right: 0;
+  margin-left: 0;
+}
 .courses .courses__content .courses__left {
   background-color: rgba(20, 23, 28, 0.05);
   padding: 0 2rem;
@@ -240,6 +244,14 @@ body {
 .courses .courses__content #myTab .nav-link.active {
   border: none;
   border-bottom: 5px solid #007791;
+}
+
+.viewing {
+  padding: 22px 0;
+}
+.viewing .viewing__content {
+  width: 90%;
+  margin: auto;
 }
 
 .button--white {

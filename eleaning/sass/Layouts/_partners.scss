@@ -1,0 +1,17 @@
+.partners {
+  background-color: $color-gray-6;
+  padding-top: $pd-3 0;
+  text-align: center;
+  .partners__content {
+    width: 70%;
+    margin: auto;
+    .partners__text {
+      padding-top: 18px;
+    }
+  }
+  .partners__imgs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

@@ -288,12 +288,59 @@ body {
   border-bottom: 5px solid #007791;
 }
 
+.students {
+  padding: 32px 0;
+}
+.students .students__content {
+  width: 90%;
+  margin: 0 auto;
+}
+.students .students__content h2 {
+  font-size: 24px;
+}
+
 .viewing {
   padding: 22px 0;
 }
 .viewing .viewing__content {
   width: 90%;
   margin: auto;
+}
+
+.partners {
+  background-color: #f7f8fa;
+  padding-top: 20px 0;
+  text-align: center;
+}
+.partners .partners__content {
+  width: 70%;
+  margin: auto;
+}
+.partners .partners__content .partners__text {
+  padding-top: 18px;
+}
+.partners .partners__imgs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.jobs .job__content {
+  background-color: #f7f8fa;
+}
+.jobs .job__content .row {
+  padding: 10px 0;
+}
+.jobs .job__content .jobs__items {
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+.jobs .job__content .jobs__items h2 {
+  color: #505763;
+  font-size: 19px;
+  font-weight: 600;
 }
 
 .button--white {
@@ -436,6 +483,33 @@ body {
   text-decoration: line-through;
 }
 .card .card-body .card__price span:last-child {
+  color: #29303b;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.card--feedback {
+  height: 280px;
+}
+.card--feedback .card-body {
+  padding: 2rem;
+}
+.card--feedback .card-body .card__top {
+  display: flex;
+  margin-bottom: 15px;
+}
+.card--feedback .card-body .card__avatar {
+  margin-right: 15px;
+}
+.card--feedback .card-body .card__avatar img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.card--feedback .card-body .card__name {
+  margin-bottom: 0;
+}
+.card--feedback .card-body .card__text {
   color: #29303b;
   font-size: 15px;
   font-weight: normal;

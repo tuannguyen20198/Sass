@@ -103,9 +103,10 @@ $pd-2: 5px;
 $border-radius: 2px;
 
 //break - points
-$breakpoint: (
-  "extra-large": 1200px,
-  "large": 992px,
-  "medium": 768px,
-  "small": 576px,
-);
+$breakpoints:(
+    'extra-large':1200px,
+    'large':992px,
+    'medium':768px,
+    'small':576px,
+)
+

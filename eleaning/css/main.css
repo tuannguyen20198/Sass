@@ -170,8 +170,45 @@ body {
 .myNavBar .myNavBar__right .navbar-nav .myNavBar__cart .nav-link {
   font-size: 20px;
 }
+.myNavBar .myNavBar__right .navbar-nav .myNavBar__buttons {
+  display: flex;
+}
 .myNavBar .myNavBar__right .navbar-nav .myNavBar__buttons:hover {
   background-color: transparent;
+}
+.myNavBar .myNavBar__right .navbar-nav .myNavBar__buttons .button--white {
+  margin-right: 5px;
+}
+.myNavBar .myNavBar__right .navbar-nav .myNavBar__buttons .button {
+  white-space: nowrap;
+}
+@media screen and (min-width: 1200px) and (max-width: 1355px) {
+  .myNavBar .myNavBar__right .navbar-nav .nav-item {
+    white-space: nowrap;
+  }
+  .myNavBar .myNavBar__right .navbar-nav .nav-item .nav-link {
+    font-size: 12px;
+  }
+  .myNavBar .myNavBar--reset {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .myNavBar .business, .myNavBar .instructor {
+    display: none;
+  }
+  .myNavBar .myNavBar__right .navbar-nav {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .myNavBar .myNavBar__left .myNavBar__categories,
+  .myNavBar .myNavBar__left .myNavBar__form-search {
+    display: none;
+  }
+  .myNavBar .myNavBar__right .navbar-nav .myNavBar__buttons {
+    display: none;
+  }
 }
 
 .banner {

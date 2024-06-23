@@ -60,6 +60,7 @@
                     position: absolute;
                     top: 60px;
                     right: 0;
+                    z-index: 1;
                     border-top: 1px solid $color-gray-1;
                     box-shadow:  0 4px 16px $color-gray-5;
                     &::before{
@@ -132,7 +133,9 @@
                 display: none;
             }
         }
-        .myNavBar__right {            
+        .myNavBar__right {
+            width: 50%;
+            margin-left: auto;
             .navbar-nav {               
                 .myNavBar__buttons {
                     display: none;

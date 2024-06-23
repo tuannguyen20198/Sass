@@ -26,4 +26,14 @@
             }
         }
     }
+    @include reponsive("extra-large"){
+        .intro__content{
+            .intro__icon{
+                display: none;
+            }
+        }
+    }
+    @include reponsive("medium"){
+            display: none;
+    }
 }

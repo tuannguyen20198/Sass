@@ -238,7 +238,7 @@ body {
 }
 
 .categories {
-  margin-top: 25px;
+  margin-top: 32px;
 }
 .categories .categories__content {
   width: 90%;
@@ -247,15 +247,14 @@ body {
 .categories .categories__content h2 {
   font-size: 24px;
 }
-.categories .categories__content .categories__item {
+.categories .categories__content .categories__items {
   padding: 15px;
   font-size: 18px;
   border: 1px solid rgba(20, 23, 28, 0.1);
   margin-bottom: 15px;
-  cursor: pointer;
 }
-.categories .categories__content .categories__item:hover {
-  box-shadow: 0 0 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
+.categories .categories__content .categories__items:hover {
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, 0.1), 0 3px 1px 0 rgba(20, 23, 28, 0.1);
 }
 
 footer {
@@ -275,8 +274,9 @@ footer .footer__top ul .nav-item {
 }
 footer .footer__top ul .nav-item .nav-link {
   color: #007791;
+  padding: 0;
 }
-footer .footer__top ul .nav-item.bold {
+footer .footer__top ul .nav-item .nav-link.bold {
   font-weight: 700;
 }
 footer .footer__top .btn-group {
@@ -291,6 +291,9 @@ footer .footer__top .btn-group .button--dropup i {
 }
 footer .footer__top .btn-group .button--dropup::after {
   margin-left: 30%;
+}
+footer .footer__top .btn-group .dropdown-menu {
+  font-size: 13px;
 }
 footer .footer__bottom {
   width: 90%;
@@ -427,10 +430,33 @@ footer .footer__bottom .nav-link {
 .partners .partners__content .partners__text {
   padding-top: 18px;
 }
-.partners .partners__imgs {
+.partners .partners__content .partners__imgs {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media screen and (max-width: 1200px) {
+  .partners .partners__content {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .partners .partners__content {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .partners .partners__content {
+    width: 60%;
+  }
+  .partners .partners__content .partners__imgs {
+    flex-wrap: wrap;
+  }
+  .partners .partners__content .partners__imgs .partners__items {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
 
 .jobs {
@@ -449,6 +475,11 @@ footer .footer__bottom .nav-link {
   color: #505763;
   font-size: 19px;
   font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .jobs .border-right {
+    border-right: none !important;
+  }
 }
 
 .button--white {

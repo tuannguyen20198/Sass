@@ -8,10 +8,33 @@
     .partners__text {
       padding-top: 18px;
     }
+    .partners__imgs {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
   }
-  .partners__imgs {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  @include responsive("extra-large") {
+    .partners__content {
+      width: 80%;
+    }
+  }
+  @include responsive("large") {
+    .partners__content {
+      width: 90%;
+    }
+  }
+  @include responsive("medium") {
+    .partners__content {
+      width: 60%;
+      .partners__imgs {
+        flex-wrap: wrap;
+        .partners__items {
+          width: 50%;
+          text-align: center;
+          margin-bottom: $mg-0 + 5;
+        }
+      }
+    }
   }
 }

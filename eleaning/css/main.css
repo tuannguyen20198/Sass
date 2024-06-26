@@ -360,7 +360,7 @@ footer .footer__bottom .nav-link {
 }
 .courses .courses__content .courses__left {
   background-color: rgba(20, 23, 28, 0.05);
-  padding: 2rem;
+  padding: 0 2rem;
   display: flex;
   align-items: center;
 }
@@ -387,6 +387,11 @@ footer .footer__bottom .nav-link {
   border: none;
   border-bottom: 5px solid #007791;
 }
+@media screen and (max-width: 768px) {
+  .courses .courses__content .courses__left {
+    padding: 20px;
+  }
+}
 
 .students {
   padding: 32px 0;
@@ -405,6 +410,9 @@ footer .footer__bottom .nav-link {
 .viewing .viewing__content {
   width: 90%;
   margin: auto;
+}
+.viewing .viewing__content h2 {
+  font-size: 20px;
 }
 
 .partners {
@@ -560,7 +568,7 @@ footer .footer__bottom .nav-link {
 }
 
 .card {
-  height: 275px !important;
+  height: 275px;
   margin-right: 1px;
 }
 .card .card-body {
@@ -580,7 +588,6 @@ footer .footer__bottom .nav-link {
 .card .card-body .card__stars i {
   color: #f4c150;
   font-size: 12px;
-  font-weight: normal;
   font-weight: 900;
 }
 .card .card-body .card__stars .card__rate {
@@ -595,7 +602,7 @@ footer .footer__bottom .nav-link {
 }
 .card .card-body .card__price {
   text-align: right;
-  padding: 5px 0;
+  padding: 7px 0;
 }
 .card .card-body .card__price span:first-child {
   color: #686f7a;
@@ -606,7 +613,7 @@ footer .footer__bottom .nav-link {
 .card .card-body .card__price span:last-child {
   color: #29303b;
   font-size: 15px;
-  font-weight: normal;
+  font-weight: 600;
 }
 
 .card--feedback {
@@ -630,7 +637,7 @@ footer .footer__bottom .nav-link {
 .card--feedback .card-body .card__name {
   margin-bottom: 0;
 }
-.card--feedback .card-body .card__text {
+.card--feedback .card-body .card-text {
   color: #29303b;
   font-size: 15px;
   font-weight: normal;

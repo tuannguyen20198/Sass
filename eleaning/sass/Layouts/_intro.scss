@@ -26,14 +26,14 @@
             }
         }
     }
-    @include reponsive("extra-large"){
+    @include responsive("extra-large"){
         .intro__content{
             .intro__icon{
                 display: none;
             }
         }
     }
-    @include reponsive("medium"){
+    @include responsive("medium"){
             display: none;
     }
 }

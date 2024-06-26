@@ -19,7 +19,7 @@
             @include styleFormSearch($color-white-0,$color-white-0,$color-white-0)
         }
     }
-    @include reponsive("small"){
+    @include responsive("small"){
         .cover__content{
             max-width: 400px;
             left: 10%;

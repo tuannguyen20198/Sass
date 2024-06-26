@@ -116,7 +116,7 @@
             padding-left: 0;
         }
     }
-    @include reponsive("extra-large"){
+    @include responsive("extra-large"){
         .business,.instructor{
             display: none;
         }
@@ -126,7 +126,7 @@
             }
         }
     }
-    @include reponsive("medium"){
+    @include responsive("medium"){
         .myNavBar__left {
             .myNavBar__categories,
             .myNavBar__form-search {

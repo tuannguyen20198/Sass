@@ -637,13 +637,13 @@ footer .footer__bottom .nav-link {
   border-color: transparent;
   box-shadow: none;
   transition: none;
-  color: #505763;
+  color: Z #505763;
 }
 .cover .cover__content .cover__form .input-group .form-control::-moz-placeholder {
-  color: #505763;
+  color: Z #505763;
 }
 .cover .cover__content .cover__form .input-group .form-control::placeholder {
-  color: #505763;
+  color: Z #505763;
 }
 .cover .cover__content .cover__form .input-group .form-control:focus {
   background-color: #fff;
@@ -788,4 +788,78 @@ body.darkMode {
 }
 .darkMode .myNavBar .myNavBar__left .myNavBar__categories i {
   color: #d8e2ef;
+}
+.darkMode .myNavBar .myNavBar__left .myNavBar__form-search .input-group {
+  background-color: #152e4d;
+}
+.darkMode .myNavBar .myNavBar__left .myNavBar__form-search .input-group .form-control {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: none;
+  transition: none;
+  color: #d8e2ef;
+}
+.darkMode .myNavBar .myNavBar__left .myNavBar__form-search .input-group .form-control::-moz-placeholder {
+  color: #d8e2ef;
+}
+.darkMode .myNavBar .myNavBar__left .myNavBar__form-search .input-group .form-control::placeholder {
+  color: #d8e2ef;
+}
+.darkMode .myNavBar .myNavBar__left .myNavBar__form-search .input-group .form-control:focus {
+  background-color: #132238;
+  border-top-color: #344050;
+  border-bottom-color: #344050;
+  border-left-color: #344050;
+}
+.darkMode .myNavBar .myNavBar__left .myNavBar__form-search .input-group .form-control:focus + .input-group-append .input-group-text {
+  background-color: #132238;
+  border-top-color: #344050;
+  border-bottom-color: #344050;
+  border-right-color: #344050;
+  color: #ec5252;
+}
+.darkMode .myNavBar .myNavBar__left .myNavBar__form-search .input-group .form-control:focus + .input-group-append .input-group-text:hover {
+  color: #fff;
+  background-color: #ec5252;
+}
+.darkMode .myNavBar .myNavBar__left .myNavBar__form-search .input-group .input-group-append .input-group-text {
+  background-color: transparent;
+  border-color: transparent;
+  color: #ec5252;
+}
+.darkMode .myNavBar .myNavBar__left .myNavBar__form-search .input-group .input-group-append .input-group-text:hover {
+  color: #fff;
+  background-color: #ec5252;
+}
+.darkMode .myNavBar .myNavBar__right .navbar-nav .nav-item {
+  border: 1px solid transparent;
+}
+.darkMode .myNavBar .myNavBar__right .navbar-nav .nav-item .nav-link {
+  color: #d8e2ef;
+}
+.darkMode .myNavBar .myNavBar__right .navbar-nav .nav-item:hover {
+  background-color: #152e4d;
+  border: 1px solid #344050;
+}
+.darkMode .myNavBar .myNavBar__right .navbar-nav .nav-item .overlay {
+  background-color: #0e1c2f;
+  border: 1px solid #344050;
+}
+.darkMode .myNavBar .myNavBar__right .navbar-nav .nav-item .overlay::before {
+  background-color: #0e1c2f;
+  border-top: 1px solid #344050;
+  border-left: 1px solid #344050;
+}
+.darkMode .myNavBar .myNavBar__right .navbar-nav .myNavBar__buttons:hover {
+  background-color: transparent;
+  border-color: transparent;
+}
+.darkMode .myNavBar .navbar-toggler {
+  background-color: #d8e2ef;
+}
+
+.darkMode .button--white:hover {
+  color: #d8e2ef;
+  background-color: #152e4d;
+  border: 1px solid #344050;
 }/*# sourceMappingURL=main.css.map */
